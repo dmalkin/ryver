@@ -124,9 +124,8 @@ if ( ! function_exists( 'x_integrity_entry_meta' ) ) :
     if ( x_does_not_need_entry_meta() ) {
       return;
     } else {
-      printf( '<p class="p-meta">%1$s%2$s%3$s%4$s</p>',
+      printf( '<p class="p-meta">%1$s%2$s%3$s</p>',
         $author,
-        $date,
         $categories_list,
         $comments
       );
